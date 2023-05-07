@@ -13,9 +13,9 @@ jobs:
       matrix:
         include:
            - build: macos
-            os: macos-latest
-            arch: aarch64
-            target: aarch64-apple-darwin
+             os: macos-latest
+             arch: aarch64
+             target: aarch64-apple-darwin
 
     steps:
       - uses: actions/checkout@v3
